@@ -12,7 +12,7 @@ class AccessControlEnv(gym.Env):
         self.n_priorities = len(self.priorities)
         self.free_prob = 0.06   # Probability of server freeing up
 
-        self.observation_space = spaces.Tuple((spaces.Discrete(self.n_servers),
+        self.observation_space = spaces.Tuple((spaces.Discrete(self.n_servers + 1),
                                                spaces.Discrete(self.n_priorities)))
         self.action_space = spaces.Discrete(2)
 
