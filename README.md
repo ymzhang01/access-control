@@ -29,7 +29,7 @@ of free servers, so as to maximize long-term reward without discounting.
 
 Install by running the following commands
 ```
-git clone https://github.com/ymzhang01/access_control.git
+git clone https://github.com/ymzhang01/access-control.git
 cd access-control
 pip install -e .
 ```
