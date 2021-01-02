@@ -2,7 +2,7 @@ An implementation of the Access-Control Queuing task
 from Example 10.2 of [(Sutton and Barto, 2018)](http://www.incompleteideas.net/book/RLbook2020.pdf)
 using the OpenAI Gym API [(Brockwell et al., 2016)](http://arxiv.org/abs/1606.01540).
 
-#### Description of Environment (from [(Sutton and Barto, 2018)](http://www.incompleteideas.net/book/RLbook2020.pdf):
+#### Description of Environment (from [(Sutton and Barto, 2018)](http://www.incompleteideas.net/book/RLbook2020.pdf)):
 
 This is a decision task involving
 access control to a set of 10 servers. Customers of four different priorities arrive at a
